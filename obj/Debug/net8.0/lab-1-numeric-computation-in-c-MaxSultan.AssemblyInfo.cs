@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-numeric-computation-in-c-MaxSultan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+897ff260d5e4c1c08a293943bd34dae872ef96b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ab9c008d7f555385eaa5f6eccf35ff6701cdabe")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-numeric-computation-in-c-MaxSultan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-numeric-computation-in-c-MaxSultan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

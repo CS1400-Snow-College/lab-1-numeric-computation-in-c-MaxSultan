@@ -2,10 +2,10 @@
 Console.WriteLine("Hello, World!");
 
 // Step 1: Integer math
-int a = 18;
-int b = 6;
-int c = a - b;
-Console.WriteLine(c);
+// int a = 18;
+// int b = 6;
+// int c = a - b;
+// Console.WriteLine(c);
 
 // Order of operations PEMDAS
 // Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
