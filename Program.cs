@@ -67,3 +67,28 @@ Console.WriteLine($"The range of double is {doubleMin} to {doubleMax}");
 // Floating point rounding errors
 double third = 1.0 / 3.0; // should be 0.3333333...
 Console.WriteLine(third); //0.3333333333333333
+
+
+// decimal types
+// more precision and smaller range than double
+decimal decimalMin = decimal.MinValue;
+decimal decimalMax = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {decimalMin} to {decimalMax}");
+
+double doubleX = 1.0;
+double doubleY = 3.0;
+Console.WriteLine(doubleX / doubleY); // 0.3333333333333333
+
+decimal decimalX = 1.0M;
+decimal decimalY = 3.0M;
+Console.WriteLine(decimalX / decimalY); // 0.3333333333333333333333333333
+
+// M suffix for decimal literals. otherwise treated as double by default
+
+// Challenge
+// Write code that calculates the area of a circle whose radius is 2.50 centimeters. 
+// Remember that the area of a circle is the radius squared multiplied by PI
+
+double radius = 2.50;
+double area = radius * radius * Math.PI;
+Console.WriteLine($"Area of a circle with radius {radius} cm is {area} cm^2");
