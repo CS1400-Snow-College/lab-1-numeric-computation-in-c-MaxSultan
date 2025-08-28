@@ -26,3 +26,18 @@ int g = 3;
 int h = (e + f) / g; // (7 + 4) / 3 -> 11 / 3 -> 3
 Console.WriteLine(h);
 
+// Explore integer precision and limits
+
+int precisionA = 7;
+int precisionB = 4;
+int precisionC = 3;
+int precisionD = (precisionA + precisionB) / precisionC; // 11 /
+int precisionE = (precisionA + precisionB) % precisionC; // remainder of 11 / 3
+Console.WriteLine($"quotient: {precisionD}, remainder: {precisionE}");
+
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}");
+
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
