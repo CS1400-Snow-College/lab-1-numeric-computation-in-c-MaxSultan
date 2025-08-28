@@ -41,3 +41,29 @@ Console.WriteLine($"The range of integers is {min} to {max}");
 
 int what = max + 3;
 Console.WriteLine($"An example of overflow: {what}");
+
+
+// Doubles 
+// floating point numbers are useful to repesent nonintegral numbers that
+// might be small or large in magnitude
+// double precision = 2x the number of bits as single
+
+double doubleA = 5;
+double doubleB = 4;
+double doubleC = 2;
+double doubleD = (doubleA + doubleB) / doubleC; // 9 / 2 -> 4.5
+Console.WriteLine(doubleD);
+
+double doubleE = 19;
+double doubleF = 23;
+double doubleG = 8;
+double doubleH = (doubleE + doubleF) / doubleG; // 42 / 8 -> 5.25
+Console.WriteLine(doubleH);
+
+double doubleMax = double.MaxValue;
+double doubleMin = double.MinValue;
+Console.WriteLine($"The range of double is {doubleMin} to {doubleMax}");
+
+// Floating point rounding errors
+double third = 1.0 / 3.0; // should be 0.3333333...
+Console.WriteLine(third); //0.3333333333333333
